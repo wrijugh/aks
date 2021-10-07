@@ -2,7 +2,7 @@
 
 ## 05 AKS - Build, Containerize, Run and Expose Node.js Application
 
-Create a simple Node.js Express.js application, containerize it then push it to ACR and finally deploy in Kubernetes and use as Public Website. Inspired from https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+Create a simple Node.js Express.js application, containerize it then push it to ACR and finally deploy in Kubernetes and use as Public Website. Inspired from [here](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
 
 [https://youtu.be/yhyTK0k-WkY](https://youtu.be/yhyTK0k-WkY)
 
@@ -37,8 +37,6 @@ How to create AKS using Azure Portal and connect.
 [https://youtu.be/0EGXZhudExI](https://youtu.be/0EGXZhudExI)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0EGXZhudExI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 ---
 
