@@ -1,4 +1,3 @@
-# This is a basic workflow to help you get started with Actions
 
 name: node-sample-test
 
@@ -12,12 +11,14 @@ defaults:
 
 jobs:  
   build:
-    runs-on: ubuntu-latest
-    
+    runs-on: ubuntu-latest    
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - run: npm install
-      - run: node index.js
+      # - uses: actions/setup-node@v2
+      #   with:
+      #     node-version: '14'
+      # - run: npm install
+      # - run: node index.js
+      - name: Build the docker image from Dockerfile
+        run: docker build . --file Dockerfile --tag pjlamb12/angular-cli:v1
+
