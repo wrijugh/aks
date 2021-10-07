@@ -11,6 +11,9 @@ on:
 jobs:  
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sample-code/nodejs-sample
 
     steps:
       - uses: actions/checkout@v2
