@@ -9,10 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest    
     steps:
-      - uses: actions/checkout@v2      
-      - name: Build the docker image from Dockerfile
-        run: docker build . --file Dockerfile --tag wriju/node-sample:v1
-      - run: docker images
+      # - uses: actions/checkout@v2      
+      # - name: Build the docker image from Dockerfile
+      #   run: docker build . --file Dockerfile --tag wriju/node-sample:v1
+      # - run: docker images
 
       - name: Azure Login
         uses: azure/login@v1
