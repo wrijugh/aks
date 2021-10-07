@@ -18,7 +18,6 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CRED }}
-      - run: az group list
-      # - uses: azure/CLI@v1
-      # - run: az login --service-principal -u 'e250e4b6-6a4c-4681-bc0d-a0d24c9d78f2' -p 'UhlJKB_EvYVSxdD7E-hBoCKV-mx20HTTXC' --tenant '72f988bf-86f1-41af-91ab-2d7cd011db47'
-      # - run: az groups list
+      - uses: azure/CLI@v1
+        with:
+          inlineScript: az account show
