@@ -17,5 +17,5 @@ jobs:
       - name: Azure Login
         uses: azure/login@v1
         with:
-          cred: ${{ secrets.AZURE_CREDENTIALS }}
+          cred: ${{ secrets.AZURE_CRED }}
       - run: az groups list
