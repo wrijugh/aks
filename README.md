@@ -57,11 +57,19 @@ How to create AKS Cluster using Azure CLI and connect from local machine.
 ## Contact and Resources
 
 Email Notification - https://groups.google.com/g/techtalks-wriju
+
 Google Group - https://groups.google.com/g/techtalks-wriju/
+
 Youtube Channel - https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1
+
 Dev.io Blog - https://dev.to/wrijugh
+
 LinkedIn - https://linkedin.com/in/wrijughosh/
+
 Twitter - https://twitter.com/wrijugh
+
 Facebook Page - https://www.facebook.com/groups/azureforall
+
 Blog - https://wriju.wordpress.com
+
 Email to: wrijutechtalk@gmail.com
