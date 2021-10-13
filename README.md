@@ -4,6 +4,16 @@
 
 This series will cover many different aspects of working with AKS.
 
+## 06 AKS - Deploy Kubernetes Cluster using Terraform
+
+How to deploy AKS Cluster using Terraform IaC.
+
+[https://youtu.be/lp_SkMI7GLg](https://youtu.be/lp_SkMI7GLg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lp_SkMI7GLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 ## 05 AKS - Build, Containerize, Run and Expose Node.js Application
 
 Create a simple Node.js Express.js application, containerize it then push it to ACR and finally deploy in Kubernetes and use as Public Website. Inspired from [here](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/).
@@ -56,17 +66,15 @@ How to create AKS Cluster using Azure CLI and connect from local machine.
 
 ## Contact and Resources
 
-Email Notification - https://groups.google.com/g/techtalks-wriju
+Meetup & Email Notification - [https://groups.google.com/g/techtalks-wriju](https://groups.google.com/g/techtalks-wriju)
 
-Google Group - https://groups.google.com/g/techtalks-wriju/
+Youtube Channel - [https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1](https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1)
 
-Youtube Channel - https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1
+Dev.io Blog - [https://dev.to/wrijugh](https://dev.to/wrijugh)
 
-Dev.io Blog - https://dev.to/wrijugh
+LinkedIn - [https://linkedin.com/in/wrijughosh/](https://linkedin.com/in/wrijughosh/)
 
-LinkedIn - https://linkedin.com/in/wrijughosh/
-
-Twitter - https://twitter.com/wrijugh
+Twitter - [https://twitter.com/wrijugh](https://twitter.com/wrijugh)
 
 Facebook Page - https://www.facebook.com/groups/azureforall
 
