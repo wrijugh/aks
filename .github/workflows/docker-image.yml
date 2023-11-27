@@ -24,6 +24,6 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
       with:
-        context: .
+        context: "{{defaultContext}}:nginx-docker-homepage"
         push: true
         tags: ${{ secrets.DOCKER_HUB_URL }}/nginx-web:latest
