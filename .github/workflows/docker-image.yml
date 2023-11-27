@@ -26,4 +26,4 @@ jobs:
       with:
         context: "{{defaultContext}}:nginx-docker-homepage"
         push: true
-        tags: ${{ secrets.DOCKER_HUB_URL }}/{{ secrets.APPLICATION_NAME }}:{{ secrets.IMAGE_TAG }}
+        tags: ${{ secrets.DOCKER_HUB_URL }}/${{ secrets.APPLICATION_NAME }}:${{ secrets.IMAGE_TAG }}
