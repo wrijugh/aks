@@ -42,8 +42,3 @@ Certainly! To create a **Dockerfile** for an **Nginx** container and customize t
     - Access your custom homepage by visiting `http://localhost:80` in your web browser.
 
 Remember that the default Nginx configuration loads the `index.html` file from the `/usr/share/nginx/html` directory. By copying your `welcome.html` as `index.html`, you'll see your desired output when accessing the server. If you want to make this change more permanent, consider creating a custom Docker image with an updated configuration¹². Happy Dockerizing! 🐳🚀
-
-Source: Conversation with Bing, 11/27/2023
-(1) docker - How to change nginx's default homepage via a Dockerfile and .... https://stackoverflow.com/questions/49864764/how-to-change-nginxs-default-homepage-via-a-dockerfile-and-then-launch-it-by-ru.
-(2) Nginx Docker's container : set default home page with a custom index .... https://stackoverflow.com/questions/29535153/nginx-dockers-container-set-default-home-page-with-a-custom-index-html.
-(3) Adding Custom HTML in Nginx using Docker. https://forums.docker.com/t/adding-custom-html-in-nginx-using-docker/135654.
