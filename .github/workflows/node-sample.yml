@@ -1,7 +1,7 @@
 name: node-sample-test
 on:
   push:
-    branches: [ master ]  
+    branches: [ master1 ]  
 defaults:
     run:
       working-directory: sample-code/nodejs-sample
